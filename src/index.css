@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Phudu:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;1,600&family=Roboto+Mono:wght@300&display=swap');
+body{
+
+}
+.app {
+  text-align: center;
+  color:rgb(24, 1, 24);
+  
+  
+}
+
+footer {
+  background-color: rgb(24, 1, 24);
+  padding: 20px;
+  color: white;
+}
+nav{
+  font-size: 22px;
+  font-weight:bold;
+  
+}
+nav>h1{
+  float:left;
+}
+
+ul{
+  float:right;
+  list-style-type:none;
+  display:flex;
+  flex-direction: row;  
+
+  }
+
+li{
+  padding:5px;
+  margin-left:10px;
+  cursor:pointer;
+  transition: .4s ease-in-out;
+  padding:5px;
+  border-radius:3px;
+
+
+}
+li:hover{
+  background:#180118;
+  color:white;
+  padding:5px;
+  border-radius:3px;
+}
+.cta-part{
+  text-align: left;
+  font-weight: bolder;
+}
+.cta-part>div>h1{
+  font-size:40px;
+  font-family: 'Playfair Display', serif;
+  font-weight:bold;
+}
+.cta-part>div>h4{
+  margin-top:100px;
+  color:green;
+  font-size:18px;
+}
+.cta-btn{
+  background:green;
+  color:white;
+  width:100%;
+  padding:10px;
+  border-radius:15px;
+  border:none;
+}
+.mockup{
+  
+  margin-top:40px;
+  z-index:-1;
+  margin-left:100px;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition:  0.3s ease-in-out;
+}
